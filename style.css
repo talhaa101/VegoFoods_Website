@@ -1,0 +1,89 @@
+*{
+  text-decoration: none;
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav{
+  /* background-color: rgb(218, 216, 215); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 18px;
+}
+
+nav ul{
+  display: flex;
+  gap: 20px;
+  color:black;
+}
+
+nav ul li{
+  list-style: none;
+  gap: 20px;
+  color: black;
+}
+
+nav ul li{
+  border-bottom: 2px solid transparent;
+  transition: 0.2s ease-in;
+}
+
+nav ul li:hover {
+  border-bottom: 2px solid red;
+  transition: 0.2s ease-in;
+}
+
+header{
+  gap: 20px;
+}
+
+.logo a{
+  color: #80b94a;
+  font-size: 32px;
+  font-weight: 550;
+}
+
+.hero-section{
+  background-image: url(image/bg_2.jpg);
+  height: 80vh;
+  /* display: grid; */
+  display:flex;
+  place-items: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.bg-text{
+  font-size: 90px;
+}
+
+.view-details-button {
+  background-color: #9CCC65; /* Green color */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-details-button:hover {
+  background-color: #80b94a; /* Darker green on hover */
+}
+
+
+/* hover */
+
+/* nav a:hover {
+  color: #009900; 
+} */
