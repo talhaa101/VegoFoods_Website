@@ -239,9 +239,11 @@ header{
   color: gray;
 }
 
+
 .discout_p{
   color: green;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 .total-eight-pic img{
@@ -263,6 +265,7 @@ header{
 .eight-img-text{
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 25px;
 }
 
 .best-deal-section{
@@ -320,6 +323,37 @@ color: gray;
   text-align: center;
 }
 
+.three-peo-text{
+  color: gray;
+  font-family:"Poppins", Arial, sans-serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.peo-name{
+  margin-bottom: 15px;
+}
+
+.fir-text{
+  color: #009900;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.sec-text{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.fou-text{
+  color: gray;
+  font-family:"Poppins", Arial, sans-serif;
+}
+
+.degic{
+  color: gray;
+}
+
 .three-people-container{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -336,20 +370,24 @@ color: gray;
 }
 
 .five-big-tech-img img{
-  height: 50px;
-  width: 120px;
+  height: 60px;
+  width: 160px;
+}
 
+.three-people{
+  border-bottom: 0.1px solid rgb(221, 219, 219);
 }
 
 .five-big-tech-img{
   display: grid;
   grid-template-columns: repeat(5,1fr);
-  margin-bottom: 40px;
+  margin-bottom: 55px;
+  margin-top: 55px;
   margin-left: 45px;
 }
 
 .form-section{
-  height: 18vh;
+  height: 25vh;
   background-color: #f1eeee;
   margin-bottom:90px;
 }
@@ -361,24 +399,40 @@ color: gray;
   margin-top: 30px;
 }
 
+
+.bigtech{
+  margin-top: 70px;
+}
+
 .text-f{
-  margin-top: 50px;
+  margin-top: 90px;
+}
+
+.sub-n{
+  font-size: 25px;
+  font-family:"Poppins", Arial, sans-serif;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+
+.sub-p{
+  color: grey;
 }
 
 .button-f{
-  margin-top: 50px;
+  margin-top: 90px;
 
 }
 
 .form-button{
-      background-color: #4CAF50; /* Green */
+      background-color:#ace932; /* Green */
       border: none;
-      color: white;
-      padding: 10px 20px;
+      color: rgb(95, 93, 93);
+      padding: 9px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 16px;
+      font-size: 15px;
       border-radius: 3px; 
       cursor: pointer;
 }
@@ -425,6 +479,7 @@ footer {
   display: inline-block;
   margin-right: 10px;
   font-size: 30px;
+
 }
 
 .footer-center ul li {
@@ -432,8 +487,19 @@ footer {
   margin-bottom: 10px;
 }
 
+.social-icons{
+  margin-top: 75px;
+  display: flex; /* Align icons in a row */
+    justify-content: flex-start; /* Align to the left (or center if desired) */
+    gap: 15px; 
+}
+
+.social-icons li a {
+  color: #000000;
+}
+
 .footer-center ul li a {
-  color: #777;
+  color: #000000;
   text-decoration: none;
 }
 
