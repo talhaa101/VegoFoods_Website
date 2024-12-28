@@ -19,6 +19,7 @@ nav{
   gap: 20px;
   padding: 18px;
   color: black;
+
 }
 
 .right-nav{
@@ -32,7 +33,8 @@ nav ul{
 }
 
 ul li a {
-  color: #464343;
+  color: #888686;
+
 }
 
 ul a {
@@ -46,7 +48,10 @@ nav a:hover {
 nav ul li{
   list-style: none;
   gap: 20px;
-  color: black;
+  color: #888686;
+
+  font-weight: 400;
+  opacity: 1 !important;
 }
 
 nav ul li{
@@ -130,6 +135,14 @@ header{
 
 .four-icon-p-text{
   margin-top: 10px;
+  color: #888686;
+  font-weight: lighter;
+}
+
+.four-icon-t{
+  font-family:"Poppins", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 550;
 }
 
 .five-pic-container{
@@ -147,7 +160,11 @@ header{
 }
 
 .middle-p-text{
+  font-family:"Poppins", Arial, sans-serif;
+  letter-spacing: 0.8px;
   margin: 30px;
+  color: #888686;
+  font-weight: lighter;
 }
 
 .shop-now-button{
@@ -178,6 +195,7 @@ header{
 
 .vegi-text{
   color:#009900;  
+  font-family: "Lora", Georgia, serif;
 }
 
 .featured-text{
@@ -187,25 +205,52 @@ header{
 
 .textt1{
   color: #4CAF50;
-  font-size: 25px;
+  font-size: 20px;
+  font-family:"Poppins", Arial, sans-serif;
+  
+
 }
 
 .our_p{
   margin-top: 20px;
   color: none;
   font-size: 45px;
+
 }
 
 .featured-p-text{
   margin-top: 20px;
+  color: #888686;
+  font-family:"Poppins", Arial, sans-serif;
+
+
+}
+.total-eight-pic{
+
+  border: 2px solid #f0ecec; /* Add a white border */
+  box-shadow: 0 5px 5px rgba(194, 181, 181, 0.3); /* Add the shadow */
+  border-radius: 7px;
+  padding: 5px;
+  margin-bottom: 20px; /* Optional: Add rounded corners */
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.discout_p{
+  color: green;
+  font-weight: bold;
 }
 
 .total-eight-pic img{
   height: 250px;
   width: 300px;
-  border: 2px solid #f0ecec; /* Add a white border */
-  box-shadow: 0 5px 5px rgba(194, 181, 181, 0.3); /* Add the shadow */
-  border-radius: 7px; /* Optional: Add rounded corners */
+  gap: 20px;
+  /* border: 2px solid #f0ecec;
+  box-shadow: 0 5px 5px rgba(194, 181, 181, 0.3);
+  border-radius: 7px;  */
 }
 
 .featured-eight-pic{
@@ -236,22 +281,39 @@ header{
 
 .text1{
   padding: 10px;
+  color:#4CAF50;
 }
 
 .text2{
   padding: 10px;
+  font-size: 40px;
 }
 
 .text3{
   padding: 10px;
+  color: gray;
 }
 
 .text4{
   padding: 10px;
+  color:#4CAF50;
+  font-size: 30px;
 }
+
+.ten-dollar{
+color: gray;
+}
+
+.five-dollar{
+  color:#4CAF50;
+}
+
+
 
 .best-deal-text{
   margin-left: 600px;
+  text-align: left;
+  height: 400px;
 }
 
 .testimony-text{
